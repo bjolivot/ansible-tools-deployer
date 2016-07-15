@@ -1,0 +1,34 @@
+Ansible Deployer
+================
+
+Python script for ansible deployement.
+
+
+
+Executing this script will
+--------------------------
+
+  - check if ansible is available (will show how to install if not)
+  - create folowing directories :
+     ~/ansible
+        /tools
+        /roles
+        /playbooks
+
+  - will download tools and roles (see ansible_deployer.cfg)
+
+
+
+How to use
+----------
+
+ - edit ansible_deployer.cfg
+ - execute ansible_deployer.py
+
+
+
+License
+-------
+
+Licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
